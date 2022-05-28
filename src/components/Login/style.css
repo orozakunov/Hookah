@@ -1,0 +1,8 @@
+.login {
+    display: flex;
+}
+.login-icon {
+    color: #a1c4fd;
+    padding-left: 0;
+    cursor: pointer;
+}

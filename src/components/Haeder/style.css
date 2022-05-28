@@ -1,0 +1,19 @@
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.headerItems {
+    display: flex;
+    padding: 0;
+}
+.headerItem {
+    padding: 0;
+    cursor: pointer;
+}
+.my-tabac-icon {
+    cursor: pointer;
+}
+.logo {
+    cursor: pointer;
+}

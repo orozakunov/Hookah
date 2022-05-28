@@ -1,0 +1,36 @@
+.main-content {
+    position: relative;
+}
+.main-image {
+    display: flex;
+    max-width: 1100px;
+    max-height: 800px;
+}
+.main-title {
+    position: absolute;
+    top: 15%;
+    left: 20%;
+    color: #868686;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+}
+.main-subtitle {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    color: #a1c4fd;
+    cursor: pointer;
+}
+.main-arrow {
+    position: absolute;
+    top: 49%;
+    left: 57%;
+    cursor: pointer;
+}
+.main-background {
+    background-color: #ecf2f8;
+}

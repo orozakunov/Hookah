@@ -1,0 +1,68 @@
+.popularTabacco {
+    height: 1000px;
+}
+.popularTabacco-title {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.popularTabacco-items {
+    display: flex;
+}
+.popularTabacco-item {
+    max-width: 255px;
+    max-height: 365px;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 20px;
+}
+.popularTabacco-item:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.05);
+    transition: 0.4s;
+}
+.popularTabacco-item-img {
+    max-width: 205px;
+    max-height: 250px;
+}
+.popularTabacco-container {
+    display: flex;
+    cursor: pointer;
+}
+.popularTabacco-span {
+    color: #a1c4fd;
+    margin-right: 10px;
+}
+.popularTabacco-h3 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #010624;
+}
+.popularTabacco-item-h4 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #a1c4fd;
+    margin-top: 1px;
+}
+.popularTabacco-item-span {
+    font-style: normal;
+    font-weight: 400;
+    color: #000000;
+    border-bottom: 1px solid #edecef;
+}
+.popularTabacco-item-p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #868686;
+    margin-top: 10px;
+    padding: 10px;
+}
+.popularTabacco-item-p {
+    background: #f2f6fa;
+    border-radius: 50px;
+}

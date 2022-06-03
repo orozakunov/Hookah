@@ -1,0 +1,44 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Гироскутер Smart Balance Well 6.5 Хип-Хоп (АКВАЗАЩИТА)",
+      "subtitle": "Южный вайб",
+      "imageURL": "https://smokyland.shop/image/cache/catalog/Tabak/D…/kupit-tabak-darkside-120-uzhniy-vibe-800x800.jpg",
+      "category": 2,
+      "raiting": 4,
+      "price": 5000,
+      "isLiked": true
+    },
+    {
+      "id": 2,
+      "title": "duft",
+      "subtitle": "Pomegranate",
+      "imageURL": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD…AiIgCIiAIiIAiIgCIiAIiIAiIgCIiAIiIAnkxEAREQD//2Q==",
+      "category": 2,
+      "raiting": 4,
+      "price": 5000,
+      "isLiked": true
+    },
+    {
+      "id": 3,
+      "title": "Гироскутер Smart Balance Well 6.5 Хип-Хоп (АКВАЗАЩИТА)",
+      "subtitle": "Южный вайб",
+      "imageURL": "https://smokyland.shop/image/cache/catalog/Tabak/D…/kupit-tabak-darkside-120-uzhniy-vibe-800x800.jpg",
+      "category": 2,
+      "raiting": 4,
+      "price": 5000,
+      "isLiked": true
+    },
+    {
+      "id": 4,
+      "title": "duft",
+      "subtitle": "Pomegranate",
+      "imageURL": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD…AiIgCIiAIiIAiIgCIiAIiIAiIgCIiAIiIAnkxEAREQD//2Q==",
+      "category": 2,
+      "raiting": 4,
+      "price": 5000,
+      "isLiked": true
+    }
+  ]
+}

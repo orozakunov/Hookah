@@ -1,5 +1,6 @@
 import React from "react";
 import "./style.css";
+import MyButton from "../UI/MyButton/MyButton";
 
 import CreateMixImage from "../../assets/CreateMix/Background.png";
 const CreateMix = () => {
@@ -16,7 +17,7 @@ const CreateMix = () => {
               требования наших Клиентов, а в ближайших планах нашей компании,
               еще больше расширить ассортимент товаров и услуг.
             </p>
-            <button className="my-btn">Создать микс</button>
+            <MyButton>Создать микс</MyButton>
           </div>
         </div>
       </div>

@@ -1,0 +1,7 @@
+.popularMix {
+    margin-top: 145px;
+}
+.popularMix-title {
+    display: flex;
+    justify-content: space-between;
+}

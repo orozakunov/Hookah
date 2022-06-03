@@ -7,12 +7,12 @@
 }
 .crecreateMix-wrapper {
     position: absolute;
-    top: 20%;
+    top: 10%;
     left: 40%;
     max-width: 650px;
 }
 .createMix-description {
-    margin: 40px 0 30px;
+    margin: 30px 0;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;

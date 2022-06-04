@@ -4,4 +4,21 @@
 .popularMix-title {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 23px;
+}
+.mixItems-content {
+    display: flex;
+}
+.mixItems-item {
+    max-width: 350px;
+    max-height: 650px;
+}
+.mixItem-text {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #010624;
+}
+.mix-items-img {
+    margin-top: 45px;
 }

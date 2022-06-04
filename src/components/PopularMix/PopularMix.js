@@ -1,8 +1,10 @@
 import React from "react";
-import MyArrow from "../UI/Arrow/MyArrow";
+import MixItems from './MixItems';
+import MyArrow from '../UI/MyArrow/MyArrow';
 import MyTitle from "../UI/MyTitle/MyTitle";
 import "./style.css";
 const PopularMix = () => {
+  
   return (
     <div className="popularMix">
       <div className="container">
@@ -12,6 +14,7 @@ const PopularMix = () => {
             <MyTitle>Популярные миксы</MyTitle>
             <MyArrow>Показать все </MyArrow>
           </div>
+          <MixItems />
         </div>
       </div>
     </div>

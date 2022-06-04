@@ -1,0 +1,62 @@
+.popularlaunge {
+    height: 1000px;
+    margin-top: 75px;
+}
+.popularlaunge-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.popularLaunge-Items {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.popularLaunge-Item {
+    max-width: 350px;
+    max-height: 440px;
+    background-color: #f2f6fa;
+    cursor: pointer;
+}
+.popularLaunge-description {
+    padding: 20px 25px;
+}
+.item__title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #ff0013;
+    margin: 0 5px;
+}
+.item__subtitle {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24p;
+    color: #000000;
+    margin: 10px 20px 0 0;
+}
+.item-logo-title {
+    display: flex;
+}
+.item__line {
+    border: 1px solid #ffffff;
+    margin: 20px 0;
+}
+.item__patiets {
+    display: flex;
+}
+.item__patiens__content {
+    display: flex;
+}
+.item__patiens__wrapper {
+    background: #ffffff;
+    padding: 5px 10px;
+    margin: 0 5px;
+}
+.item__patiens__image {
+    margin: 0 5px;
+}

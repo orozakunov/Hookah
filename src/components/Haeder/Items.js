@@ -3,7 +3,7 @@ import React from "react";
 const Items = ({ headerItems }) => {
   const renderedItems = headerItems.map((item) => {
     return (
-      <div key={item.id} className="headerItem">
+      <div className="headerItem" key={item.id}>
         <ul>
           <li>{item.description}</li>
         </ul>

@@ -35,7 +35,7 @@ const Header = () => {
         <div className="header-content">
           <>
             <a href="/" />
-            <img className="logo" src={LogoIcon} />
+            <img className="logo" src={LogoIcon} alt="logo"/>
           </>
           <Items headerItems={headerItems} />
           <MyTabac />

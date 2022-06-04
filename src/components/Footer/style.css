@@ -1,0 +1,21 @@
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerItem {
+    padding: 0;
+    cursor: pointer;
+}
+
+.footerItems {
+    display: flex;
+    padding: 0;
+}
+
+.footer {
+    background: #F2F6FA;
+    width: 100%;
+    height: 125px;
+    padding: 24px 0;
+}

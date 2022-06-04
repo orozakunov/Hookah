@@ -1,17 +1,14 @@
-import CreateMix from "./components/CreateMix/CreateMix";
-import Main from "./components/Main/Main";
-import Popularlaunge from "./components/Popularlaunge/Popularlaunge";
-import PopularMix from "./components/PopularMix/PopularMix";
-import PopularTabacco from "./components/PopularTabacco/PopularTabacco";
+import { Route, Routes } from "react-router-dom";
+import CatalogPage from "./views/CatalogPage";
+import HomePage from "./views/HomePage";
 
 function App() {
   return (
     <div className="App">
-      <Main />
-      <PopularTabacco />
-      <CreateMix />
-      <PopularMix />
-      <Popularlaunge />
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/catalog" element={<CatalogPage />} />
+      </Routes>
     </div>
   );
 }

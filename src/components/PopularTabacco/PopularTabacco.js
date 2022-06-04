@@ -4,8 +4,8 @@ import Items from "./Items";
 import "./style.css";
 
 import DarkSideIcon from "../../assets/popolarTabacco/darkside.png";
-import MyArrow from "../UI/Arrow/MyArrow";
 import MyTitle from "../UI/MyTitle/MyTitle";
+import MyArrow from "../UI/MyArrow/MyArrow";
 const PopularTabacco = () => {
   const items = [
     {

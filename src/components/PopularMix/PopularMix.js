@@ -1,5 +1,5 @@
 import React from "react";
-import MyArrow from "../UI/Arrow/MyArrow";
+import MyArrow from "../UI/MyArrow/MyArrow";
 import MyTitle from "../UI/MyTitle/MyTitle";
 import "./style.css";
 const PopularMix = () => {

@@ -2,7 +2,7 @@
     max-width: 255px;
     max-height: 635px;
 }
-.sidebar-content {
+.sidebar-title {
     display: flex;
     align-items: center;
     justify-content: space-between;

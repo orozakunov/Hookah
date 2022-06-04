@@ -1,10 +1,10 @@
 import React from "react";
 import Catalog from "../components/Catalog/Catalog";
 
-const CatalogPage = () => {
+const CatalogPage = ({data}) => {
   return (
     <>
-      <Catalog />
+      <Catalog data={data} />
     </>
   );
 };

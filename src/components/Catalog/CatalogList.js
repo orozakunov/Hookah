@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
+import Item from "./Item";
 
-const CatalogList = () => {
+const CatalogList = ({ data }) => {
   return (
-    <div>CatalogList</div>
-  )
-}
+    <div className="catalog-list">
+      <Item data={data} />
+    </div>
+  );
+};
 
-export default CatalogList
+export default CatalogList;

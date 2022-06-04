@@ -1,12 +1,13 @@
 import { useEffect } from "react";
-
+import axios from "axios";
 export const useFetch = () => {
-  const getProducts = "http://localhost:3000/products";
+  const getProducts = "http://localhost:3500/products";
 
   useEffect(() => {
-    getProducts();
+    axios.get(getProducts).then((res) => {
+      console.log(res.data);
+    });
   }, []);
-  console.log(getProducts);
 
   return {};
 };

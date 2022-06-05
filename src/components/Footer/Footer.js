@@ -1,5 +1,6 @@
 import React from 'react';
 import FooterItems from './FooterItems';
+import TelegramIcon from '../UI/Icons/TelegramIcon';
 
 import './style.css';
 
@@ -33,14 +34,19 @@ const Footer = () => {
         <div className='container'>
             <div className='footer-content'>
                 <FooterItems footerItems={footerItems} />
-                <p>Мы в Telegram</p>
+                <div className='footer-telegram-link'>
+                  <TelegramIcon />
+                  <a href='/'>  Мы в Telegram</a>
+                </div>
             </div>
             <div className='footer-content'>
-                    <p>© 2021 HookahPortal.ru</p>
+                    <p className='footer-content-text'>© 2021 HookahPortal.ru</p>
                 <div></div>
-                <div>
-                    <p>Политика конфиденциальности</p>
-                    <p>Обработка данных</p>
+                <div className='footer-config'>
+                  <ul>
+                    <li>Политика конфиденциальности</li>
+                    <li>Обработка данных</li>
+                  </ul>
                 </div>
             </div>
         </div>

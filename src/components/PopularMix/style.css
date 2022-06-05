@@ -1,0 +1,69 @@
+.popularMix {
+    margin-top: 145px;
+}
+.popularMix-title {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 23px;
+}
+.mixItems-content {
+    display: flex;
+}
+
+.mixItems-item {
+    max-width: 350px;
+    max-height: 750px;
+}
+
+.mixItem-text {
+    margin-top: 6px;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 28px;
+    color: #010624;
+    margin-bottom: 20px;
+}
+
+.mix-items-img {
+    margin-top: 45px;
+}
+
+.mixItems-icon-param {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.mixItem-item-first {
+    border-bottom: solid #EDECEF;
+    margin-bottom: 16px;
+}
+.mixItems-news {
+    padding: 8px;
+    background: #A1C4FD;
+    color: white;
+    width: 110px;
+    margin: 0;
+    height: 35px;
+    text-align: center;
+    border-radius: 35px;
+}
+
+.mixItems-news span {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.mixItem-percents p {
+    padding: 13px 0;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    color: #A1C4FD;
+}
+
+.mixItem-percents span {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 18px;
+    color: #868686;
+}

@@ -1,0 +1,48 @@
+.createMix {
+    margin-top: 45px;
+    position: relative;
+}
+.createMix-image {
+    max-width: 100%;
+}
+.crecreateMix-wrapper {
+    position: absolute;
+    top: 10%;
+    left: 45%;
+    max-width: 650px;
+}
+.createMix-description {
+    margin: 30px 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #5c5c6d;
+}
+.createMix-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    color: #010624;
+}
+.my-btn {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #a1c4fd;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+.createMix-aa {
+    position: absolute;
+    width: 30.5px;
+    height: 110px;
+    left: 17px;
+    top: -13px;
+    transform: rotate(30deg);
+    background: #a1c4fd;
+}
+.createMix-aa::before {
+    z-index: -1;
+}

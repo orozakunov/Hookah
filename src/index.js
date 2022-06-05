@@ -3,12 +3,17 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./App";
 import Header from "./components/Haeder/Header";
+import Footer from "./components/Footer/Footer";
+import { BrowserRouter } from "react-router-dom";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <Header />
-    <App />
+    <BrowserRouter>
+      <Header />
+      <App />
+      <Footer />
+    </BrowserRouter>
   </React.StrictMode>
 );
 

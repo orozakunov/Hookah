@@ -5,6 +5,7 @@ import "./style.css";
 import LogoIcon from "../../assets/Header/Logo.svg";
 import MyTabac from "./MyTabac";
 import Login from "../Login/Login";
+import { Link } from "react-router-dom";
 const Header = () => {
   const headerItems = [
     {
@@ -33,10 +34,9 @@ const Header = () => {
     <header className="header">
       <div className="container">
         <div className="header-content">
-          <>
-            <a href="/" />
+          <Link to="/">
             <img className="logo" src={LogoIcon} />
-          </>
+          </Link>
           <Items headerItems={headerItems} />
           <MyTabac />
           <Login />

@@ -4,9 +4,14 @@ import Items from "./Items";
 import "./style.css";
 
 import DarkSideIcon from "../../assets/popolarTabacco/darkside.png";
+<<<<<<< HEAD
 import MyArrow from '../UI/MyArrow/MyArrow';
 import MyTitle from "../UI/MyTitle/MyTitle";
 
+=======
+import MyTitle from "../UI/MyTitle/MyTitle";
+import MyArrow from "../UI/MyArrow/MyArrow";
+>>>>>>> d7a6e2b946dcd14dfb33accf3e7dccf0b1c7a58b
 const PopularTabacco = () => {
   const items = [
     {

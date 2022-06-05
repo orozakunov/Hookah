@@ -1,6 +1,9 @@
 import React from "react";
+<<<<<<< HEAD
 import MixItems from "./MixItems";
 
+=======
+>>>>>>> d7a6e2b946dcd14dfb33accf3e7dccf0b1c7a58b
 import MyArrow from "../UI/MyArrow/MyArrow";
 import MyTitle from "../UI/MyTitle/MyTitle";
 import DrinkImg from "../../assets/PoppularMix/Group 18 (1).png";

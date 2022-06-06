@@ -7,7 +7,8 @@ import DrinkImg from "../../assets/PoppularMix/Group 18 (1).png";
 
 import "./style.css";
 
-const PopularMix = () => {
+const PopularMix = ({ mix }) => {
+
   const items = [
     {
       id: 1,
@@ -100,7 +101,7 @@ const PopularMix = () => {
             <MyTitle>Популярные миксы</MyTitle>
             <MyArrow>Показать все </MyArrow>
           </div>
-          <MixItems items={items} />
+          <MixItems mix={mix} />
         </div>
       </div>
     </div>

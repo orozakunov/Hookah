@@ -1,10 +1,42 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { IconContext } from 'react-icons';
 import { FiHeart } from 'react-icons/fi';
 
 
-const MixItems = ({ items }) => {
-    const renderItems = items.map((item) => {
+const MixItems = () => {
+    const [mix, setMix] = useState([])
+
+    useEffect(() => {
+      const fetchTodos = async () => {
+        const response = await fetch(
+            'http://localhost:3500/popularMix'
+        )
+        if (!response.ok) {
+          throw new Error('Something went wrong')
+        }
+        const responseData = await response.json()
+        //   console.log(responseData)
+  
+        const loadedMeals = []
+
+        for (const key in responseData) {
+          loadedMeals.push({
+            id: key,
+            title: responseData[key].title,
+            img: responseData[key].img,
+            percents: responseData[key].compound[0].percents,
+            name: responseData[key].compound[0].title
+
+          })
+        }
+        setMix(loadedMeals)
+      }
+      fetchTodos().catch((error) => {
+        console.log(error.message)
+      })
+    }, [])
+
+    const renderItems = mix.map((item) => {
         return (
         <div className='mixItems-item' key={item.id}>
             <div className='mixItem-item-first'>
@@ -30,11 +62,7 @@ const MixItems = ({ items }) => {
               <p className='mixItem-text'>{item.title}</p>
               </div>
               <div className='mixItem-percents'>
-                  <p>{item.compound[0].percents}  <span>{item.compound[0].title}</span></p>
-                  <p>{item.compound[1].percents}  <span>{item.compound[1].title}</span></p>
-                  <p>{item.compound[2].percents}  <span>{item.compound[2].title}</span></p>
-                  <p>{item.compound[3].percents}  <span>{item.compound[3].title}</span></p>
-                  <p>{item.compound[4].percents}  <span>{item.compound[4].title}</span></p>
+                  <p>{item.percents}  <span>{item.name}</span></p>
               </div>
           </div>
         );

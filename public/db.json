@@ -194,5 +194,88 @@
         "imgYandex": "data:image/png;base64,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"
       }
     }
+  ],
+  "popularMix": [
+    {
+      "id": 1,
+      "title": "Идеальный завтрак",
+      "img": "https://www.cravingsomecreativity.com/wp-content/uploads/2020/09/Caramel-Apple-Sangria-360x360.webp",
+      "compound": [
+        {
+          "percents": "10%",
+          "title": "Darkside - LEMONBLAST"
+        },
+        {
+          "percents": "20%",
+          "title": "Spectrum - Bacon"
+        },
+        {
+          "percents": "10%",
+          "title": "Darkside - BASIL BLAST"
+        },
+        {
+          "percents": "20%",
+          "title": "Darkside - PEAR"
+        },
+        {
+          "percents": "30%",
+          "title": "Darkside - CODE CHERRY"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Идеальный завтрак",
+      "img": "https://www.cravingsomecreativity.com/wp-content/uploads/2020/09/Caramel-Apple-Sangria-360x360.webp",
+      "compound": [
+        {
+          "percents": "10%",
+          "title": "Darkside - LEMONBLAST"
+        },
+        {
+          "percents": "20%",
+          "title": "Spectrum - Bacon"
+        },
+        {
+          "percents": "10%",
+          "title": "Darkside - BASIL BLAST"
+        },
+        {
+          "percents": "20%",
+          "title": "Darkside - PEAR"
+        },
+        {
+          "percents": "30%",
+          "title": "Darkside - CODE CHERRY"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Идеальный завтрак",
+      "img": "https://www.cravingsomecreativity.com/wp-content/uploads/2020/09/Caramel-Apple-Sangria-360x360.webp",
+      "compound": [
+        {
+          "percents": "10%",
+          "title": "Darkside - LEMONBLAST"
+        },
+        {
+          "percents": "20%",
+          "title": "Spectrum - Bacon"
+        },
+        {
+          "percents": "10%",
+          "title": "Darkside - BASIL BLAST"
+        },
+        {
+          "percents": "20%",
+          "title": "Darkside - PEAR"
+        },
+        {
+          "percents": "30%",
+          "title": "Darkside - CODE CHERRY"
+        }
+      ]
+    }
   ]
 }

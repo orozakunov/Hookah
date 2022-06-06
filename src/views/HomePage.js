@@ -4,13 +4,13 @@ import Main from "../components/Main/Main";
 import Popularlaunge from "../components/Popularlaunge/Popularlaunge";
 import PopularMix from "../components/PopularMix/PopularMix";
 import PopularTabacco from "../components/PopularTabacco/PopularTabacco";
-const HomePage = () => {
+const HomePage = ({ mix }) => {
   return (
     <>
       <Main />
       <PopularTabacco />
       <CreateMix />
-      <PopularMix />
+      <PopularMix mix={mix}/>
       <Popularlaunge />
     </>
   );
